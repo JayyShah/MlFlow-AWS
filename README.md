@@ -1,14 +1,14 @@
 # Problem Statement:
-    - Data science teams frequently face challenges when it comes to effectively managing their machine learning experiments. Although Jupyter notebooks are widely used, relying on them or spreadsheets to store experiment results can become overwhelming and hinder collaboration among team members. This is especially true when dealing with multiple hyperparameters, different model architectures, evolving data sources, and numerous metrics. Such an approach compromises reproducibility and makes it difficult to compare experiments.
+- Data science teams frequently face challenges when it comes to effectively managing their machine learning experiments. Although Jupyter notebooks are widely used, relying on them or spreadsheets to store experiment results can become overwhelming and hinder collaboration among team members. This is especially true when dealing with multiple hyperparameters, different model architectures, evolving data sources, and numerous metrics. Such an approach compromises reproducibility and makes it difficult to compare experiments.
 
 # Solution Using MLFlow:
-    - MLflow addresses these challenges by offering a unified interface and a comprehensive set of tools for managing the entire machine learning lifecycle. This includes capabilities such as experiment tracking, project packaging, model versioning, and model deployment.
+- MLflow addresses these challenges by offering a unified interface and a comprehensive set of tools for managing the entire machine learning lifecycle. This includes capabilities such as experiment tracking, project packaging, model versioning, and model deployment.
 
 # How
-    - Configure Mlflow on AWS, Utilizing RDS as backend store for metadata and logs.
-    - S3 as artifact location for storing models and artifacts.
-    - EC2 as Remote tracking server hosting MLFlow.
-        - By tracking the server remotely, Data scientists can benifit from centralized platform that allows them to access their own experiment results as well as of their team members.
+- Configure Mlflow on AWS, Utilizing RDS as backend store for metadata and logs.
+- S3 as artifact location for storing models and artifacts.
+- EC2 as Remote tracking server hosting MLFlow.
+- By tracking the server remotely, Data scientists can benifit from centralized platform that allows them to access their own experiment results as well as of their team members.
 
 ![mlflow](media/mlflow.png)
 
